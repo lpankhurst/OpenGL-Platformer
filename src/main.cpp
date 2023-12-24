@@ -11,10 +11,8 @@ int main(int argc, char* argv[]){
 
     // Create the renderer onto the window
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-    if ( renderer == NULL )
+    if ( renderer == nullptr )
         std::cout << "Error Creating Renderer: " << SDL_GetError() << std::endl; 
-
-    std::cout << "Ran" << std::endl;
 
     // Basic gameloop
     while ( true ){

@@ -1,3 +1,12 @@
+Game Engine:
+
 1. Create a Game Engine template, so can reuse for other projects.
 2. Good game state context manager, pass game states to a stack and run the gameloop on the top one(s).
 3. Make use of OpenGL.
+4. Resizeable window
+
+...
+
+Game:
+
+1. Tile map for level creation.
